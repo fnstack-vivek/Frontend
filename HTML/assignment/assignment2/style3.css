@@ -1,0 +1,71 @@
+:root {
+  --ink: #1e293b; 
+  --muted: #64748b; 
+  --bg: #f6f7fb; 
+  --card: #ffffff; 
+  --line: #e9e8f2; 
+  --brand: #2b6cb0; 
+  --accent: #8b5cf6; 
+  --gold: #c9a227; 
+}
+
+
+body {
+  margin:5px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: var(--ink);
+  background: var(--bg);
+  line-height: 1.65;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Playfair Display", serif;
+  margin: 0 0 0.6rem;
+  text-decoration: underline;
+}
+
+p {
+  margin: 0.4rem 0 1rem;
+  color: var(--muted);
+}
+
+::selection {
+  background: var(--accent);
+  color: white;
+}
+
+#about-header {
+  position:relative;
+  padding: 94px 24px 120px;
+  text-align: center;
+  color: #fff;
+  background: linear-gradient(to bottom, #0f172a, #1e3a8a, #4338ca);
+  overflow: hidden;
+}
+
+
+#about-header::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 48px;
+  width: 120px;
+  height: 3px;
+  background: linear-gradient(90deg, transparent, var(--line), transparent);
+  border-radius: 999px;
+}
+
+#about-header h1 {
+  font-size: 2rem;
+  letter-spacing: 0.3px;
+}
+#section img {
+  width: 128px;
+  height: 128px;
+}
+
+
+

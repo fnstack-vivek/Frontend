@@ -2,21 +2,112 @@
     text-align: center;
     background-color: aquamarine;
 } */
-h2 {
+/* h2 {
   background-color: blue;
   text-align: center;
 }
 /* base.css */
-* {
+/* * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
+} */
 
-body {
+/* body {
   font-family: 'Segoe UI', sans-serif;
   background-color: #f9f9f9;
   color: #333;
   line-height: 1.6;
+} */ 
+ /* Reset default margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #2c3e50;
+}
+
+
+img {
+    display: block;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+    outline: 3px solid #3498db;
+    transition: outline-color 0.3s ease;
+}
+
+img:hover {
+    outline-color: #2ecc71;
+}
+
+
+h1, h2 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+    color: #34495e;
+}
+
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+    padding: 5px;
+    outline: 1px dashed #95a5a6;
+    border-radius: 5px;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    outline: 2px solid #7f8c8d;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #bdc3c7;
+}
+
+
+div {
+    margin-top: 20px;
+    padding: 10px;
+    outline: 2px dotted #9b59b6;
+    border-radius: 10px solid;
+    background-color: #ffffff;
+}
+
+
+
+a {
+    color: #2980b9;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #e74c3c;
 }
 

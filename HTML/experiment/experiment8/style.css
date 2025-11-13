@@ -1,0 +1,26 @@
+body{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+    
+    
+}
+#btn1{
+    background-color: red;
+    margin-top:10px;
+}
+#btn2{
+    background-color: green;
+    margin:10px;
+}
+.main{
+    background-color: bisque;
+    margin:100px 100px 100px 100px;
+    height: 300px;
+    
+    border: 2px solid black;
+    border-radius: 5%;
+
+}
+
